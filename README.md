@@ -8,10 +8,6 @@ This is a simple CRUD (Create, Read, Update, Delete) application built with Reac
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Running the Application](#running-the-application)
-- [Running Tests](#running-tests)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Additional Information](#additional-information)
 
 ## Description
 
