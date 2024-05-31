@@ -135,12 +135,6 @@ export default function UsersTable({ datas, isloading }) {
                       >
                         Phone
                       </th>
-                      <th
-                        scope="col"
-                        className="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider"
-                      >
-                        Image
-                      </th>
                       <th scope="col" className="relative px-6 py-3">
                         <span className="sr-only">Action</span>
                       </th>
