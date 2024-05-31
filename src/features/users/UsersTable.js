@@ -196,7 +196,7 @@ export default function UsersTable({ datas, isloading }) {
                 </table>
               )}
             </div>
-            <NoDataCondition datas={dataWithImages} isloading={isloading} />
+            <NoDataCondition datas={datas} isloading={isloading} />
           </div>
         </div>
         <Pagination
