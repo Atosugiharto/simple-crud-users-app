@@ -42,6 +42,7 @@ const usersSlice = createSlice({
     users: [],
     detailUser: [],
     status: "idle",
+    statusGetId: "idle",
     error: null,
   },
   reducers: {},
@@ -59,14 +60,14 @@ const usersSlice = createSlice({
         state.error = action.error.message;
       })
       .addCase(fetchUserById.pending, (state) => {
-        state.status = "loading";
+        state.statusGetId = "loading";
       })
       .addCase(fetchUserById.fulfilled, (state, action) => {
-        state.status = "succeeded";
+        state.statusGetId = "succeeded";
         state.detailUser = action.payload;
       })
       .addCase(fetchUserById.rejected, (state, action) => {
-        state.status = "failed";
+        state.statusGetId = "failed";
         state.error = action.error.message;
       })
       .addCase(addUser.fulfilled, (state, action) => {

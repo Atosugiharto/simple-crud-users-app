@@ -22,7 +22,7 @@ const UsersList = () => {
   }, [isloading, dispatch]);
 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <CommonDialog
         openDialog={openAdd}
         closeDialog={closeDialog}

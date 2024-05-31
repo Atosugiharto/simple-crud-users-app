@@ -10,7 +10,7 @@ const EditUser = ({ id, closeDialog }) => {
   const [phone, setPhone] = useState("");
   const dispatch = useDispatch();
   const detailData = useSelector((state) => state.users.detailUser);
-  const status = useSelector((state) => state.users.status);
+  const status = useSelector((state) => state.users.statusGetId);
 
   useEffect(() => {
     dispatch(fetchUserById(id));
