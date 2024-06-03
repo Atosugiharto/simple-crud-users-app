@@ -19,7 +19,6 @@ This application demonstrates how to use React with Redux Toolkit to manage stat
 - Add a new user
 - Update an existing user
 - Delete a user
-- Unit testing for Redux slices and React components
 
 ## Getting Started
 
